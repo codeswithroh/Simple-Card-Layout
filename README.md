@@ -2,7 +2,7 @@
 
 ### `Responsive Cards Layout`
 
-![](images\Responsive-cards.png)
+![](images/Responsive-cards.png)
 
 
 ### `Links`
