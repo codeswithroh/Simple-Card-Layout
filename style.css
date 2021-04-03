@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 4em;
+}
+
+.car-container-suv,
+.car-container-sedan,
+.car-container-luxury {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 2em;
+    max-width: 18em;
+}
+
+.car-container-sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.car-container-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.car-container-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+img {
+    padding-top: 2em;
+    width: 25%;
+}
+
+p {
+    max-width: 20em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    line-height: 1.5em;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#author{
+    color:aqua;
+    margin:0 auto;
+    text-align: center;
+}
+
+a {
+    max-width: 8em;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 100px;
+    text-align: center;
+    padding: 0.8em 0;
+    margin-bottom: 2em;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover{
+    max-width:7em;
+}
+
+.car-container-sedan a {
+    color: hsl(31, 77%, 52%);
+}
+
+.car-container-suv a {
+    color: hsl(184, 100%, 22%);
+}
+
+.car-container-luxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:750px) {
+    .main-container {
+        flex-direction: column;
+        padding:0 1em;
+    }
+
+    .car-container-suv,
+    .car-container-sedan,
+    .car-container-luxury {
+        max-width:30em;
+    }
+
+    .car-container-sedan {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .car-container-luxury {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+
+}
