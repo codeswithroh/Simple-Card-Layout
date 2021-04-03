@@ -5,10 +5,9 @@
 ![](images/Responsive-cards.png)
 
 
-### `Links`
+### `Website-Link`
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Simple-Card-Layout](https://simple-card-layout.netlify.app/)
 
 
 ## `Author`
